@@ -1,0 +1,11 @@
+.selectBoxs {
+  display: flex;
+  align-items: center;
+}
+.nativeSelect * {
+  padding: 1rem;
+}
+.submitBlock {
+  width: 95%;
+  text-align: right;
+}

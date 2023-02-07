@@ -1,0 +1,58 @@
+.selectBoxs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notAssignedSelect {
+  margin: 50px 0;
+  width: 40%;
+}
+.AssignedSelect {
+  margin: 50px 0;
+  width: 40%;
+}
+.nativeSelect {
+  overflow: auto;
+}
+#not-assigned-clients {
+  overflow: auto;
+  height: 30vh;
+}
+#assigned-clients {
+  overflow: auto;
+  height: 30vh;
+}
+.submitBlock {
+  width: 95%;
+  text-align: right;
+}
+.selectUser {
+  width: 49%;
+  overflow: visible;
+  margin: 1rem 0;
+}
+.assign-butt {
+  margin: 5px auto !important;
+  border-radius: 7px !important;
+  width: 250px;
+}
+.custom-button-group-assign {
+  text-align: center;
+}
+.tss-1qtl85h-MUIDataTableBodyCell-root.tss-1vd39vz-MUIDataTableBodyCell-stackedCommon {
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 600px) {
+  .selectBoxs {
+    flex-direction: column;
+  }
+  .notAssignedSelect {
+    width: 100%;
+  }
+  .AssignedSelect {
+    width: 100%;
+  }
+  .infoItem-view {
+    width: 100%;
+  }
+}

@@ -1,0 +1,103 @@
+.featured {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  overflow: visible;
+  justify-content: space-between;
+}
+
+.featuredItem {
+  flex: 1 1;
+  display: flex;
+  /* margin: 0px 20px 0 0; */
+  padding: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px -5px rgb(39 39 39 / 29%);
+  /* background-image: linear-gradient(45deg, #e744690d, #994ef708); */
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.featuredTitle {
+  font-size: 16px;
+}
+
+.featuredMoneyContainer {
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.featuredMoney {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.featuredMoneyRate {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.featuredIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+
+.featuredIcon.negative {
+  color: red;
+}
+
+.featuredSub {
+  font-size: 16px;
+  color: gray;
+}
+.chart {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+}
+.doughnut-container {
+  width: 25%;
+  height: auto;
+  margin: 0px auto;
+}
+.dubleBarChrat-container {
+  width: 50%;
+  height: auto;
+}
+@media only screen and (max-width: 768px) {
+  .widgets-row {
+    flex-direction: column;
+  }
+  .doughnut-container {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .dubleBarChrat-container {
+    width: auto;
+    height: auto;
+  }
+  span.widgets-block-item-text {
+    font-size: 12px;
+  }
+  .widgets-block-title {
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+}
+
+/*  View css */
+@media only screen and (max-width: 1024px) {
+  .featured {
+    flex-direction: column;
+  }
+}

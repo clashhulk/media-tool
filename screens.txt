@@ -1,0 +1,69 @@
+*client master*
+
+1.Add
+name(textbox)
+
+2.Edit
+name(textbox)
+
+3.List
+All fields with edit,delete
+
+*Client*
+
+4-Add Client
+
+client_master_id(dropdown)
+company_name (textbox)
+company_type (textbox)
+email (textbox)
+phone (textbox)
+address (text_area)
+authorised_signature (textbox)
+
+5-Edit Client
+
+client_master_id(dropdown)
+company_name (textbox)
+company_type (textbox)
+email (textbox)
+phone (textbox)
+address (text_area)
+authorised_signature (textbox)
+
+List
+
+6-listing all fields with add,edit, delete option
+
+
+
+*Users*
+
+7-Add User
+
+ firstname: textbox
+ lastname:textbox
+ email:textbox
+ password:textbox
+ parent_id:(login user_id) hidden
+ phone: textbox
+ address":textarea
+ user_type:dropdown(internal,external)
+
+
+8- Edit user
+
+ firstname: textbox
+ lastname:textbox
+ email:textbox
+ password:textbox
+ parent_id:(login user_id) hidden
+ phone: textbox
+ address:textarea
+ user_type:dropdown(internal,external)
+
+
+9- User Listing
+
+All fields with add,edit,delete
+

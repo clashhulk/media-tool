@@ -1,0 +1,100 @@
+.profile-container {
+  /* padding: 0 1rem; */
+  margin-top: 5rem;
+}
+.profile {
+  max-width: 500px;
+  /* border: 1px solid #e1e1e1; */
+  border-radius: 20px;
+  padding: 2em;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px -5px rgb(39 39 39 / 29%);
+  position: relative;
+}
+.profile figure {
+  margin: 0;
+}
+.profile figure img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(21, 21, 21, 0.15);
+}
+.profile header h2 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.profile-head {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.infoItem {
+  border-radius: 7px;
+  margin: 12px 0;
+  padding: 9px 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0px 0px 5px 3px #e8e4e469;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+.view-box {
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px -5px rgb(39 39 39 / 29%);
+}
+.view-box-itemcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.infoItem-view {
+  width: 40%;
+  border-radius: 7px;
+  margin: 8px 8px 0 0;
+  padding: 5px 18px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 3px #e8e4e469;
+  justify-content: flex-start;
+}
+p.infoContent {
+  color: #747474;
+  font-size: 14px;
+  margin: 5px 0;
+}
+p.infoLable {
+  color: #000;
+  margin: 5px 0;
+}
+.profile-input {
+  border: none;
+  text-align: right;
+  border-radius: 7px;
+  background-color: #eaeaeaad;
+  padding: 5px 5px;
+}
+@media screen and (max-width: 520px) {
+  .profile {
+    padding: 1em;
+    margin: 1em;
+  }
+
+  .profile img {
+    max-width: 100%;
+    height: auto;
+  }
+}

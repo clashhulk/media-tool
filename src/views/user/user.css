@@ -1,0 +1,361 @@
+.navView {
+  /* margin-top: 34px; */
+  margin-top: 5rem;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ebe9f1;
+  border-radius: 0.428rem;
+}
+
+.navViewUser {
+  display: flex;
+  align-items: center;
+}
+
+.navViewImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.navViewEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.ListDelete {
+  color: red;
+  cursor: pointer;
+}
+.ListEdit {
+  color: #626262;
+  cursor: pointer;
+}
+/* single*/
+.user {
+  flex: 4 1;
+
+  padding: 0 1rem;
+}
+
+.component-titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto;
+  overflow: visible;
+}
+
+.userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userShow {
+  flex: 1;
+  padding: 20px;
+  /* -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); */
+}
+
+.userUpdate {
+  flex: 2;
+  padding: 20px;
+  /* -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); */
+  margin-left: 20px;
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.userShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.userShowUsername {
+  font-weight: 600;
+}
+
+.userShowcomponent-title {
+  font-weight: 300;
+}
+
+.userShowBottom {
+  margin-top: 20px;
+}
+
+.userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.userShowIcon {
+  font-size: 16px !important;
+}
+
+.userShowInfoTitle {
+  margin-left: 10px;
+}
+
+.userUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.userUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.userUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.userUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.userUpdateIcon {
+  cursor: pointer;
+}
+
+.userUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+
+h2.component-title {
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.formButtons-block {
+  display: flex;
+  align-items: center;
+  width: 49%;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+  justify-content: center;
+}
+.newUserItem {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem 1rem 0;
+}
+
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newUserItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newUserGender > input {
+  margin-top: 15px;
+}
+
+.newUserGender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.newUserButton {
+  width: 200px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.newcmItem {
+  width: 130%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem 1rem 0;
+}
+
+.newcmItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newcmItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.MuiCollapse-wrapperInner li.leftbarListItem {
+  background-color: #7c59d81c;
+  border-radius: 3px;
+  padding: 5px 15px;
+  border-bottom: solid 1px #fff;
+  color: #675693;
+}
+.actions {
+  margin-right: 0.5rem;
+}
+
+/* Views css start */
+.home {
+  flex: 4;
+
+  padding: 0 1rem;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.widgets-row {
+  display: flex;
+  margin: 2.5rem auto;
+  padding: 2rem 0;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -5px rgb(39 39 39 / 29%);
+  /* background-image: linear-gradient(45deg, #e744690d, #994ef708); */
+}
+.widgets-blocks {
+  display: flex;
+}
+.widgets-block {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -5px rgb(39 39 39 / 29%);
+  flex-direction: column;
+}
+.widgets-blocks {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.widgets-block-items {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.widgets-block-title {
+  padding: 1rem;
+  border-bottom: solid #dfdfdfbd 1px;
+  font-size: 16px;
+}
+.widgets-block-item {
+  cursor: pointer;
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  border-bottom: solid #eceaeac2 1px;
+  align-items: center;
+  justify-content: flex-start;
+  color: #333;
+}
+.tss-1akey0g-MUIDataTableHeadCell-data {
+  text-transform: uppercase;
+  font-size: 0.935rem;
+}
+span.widgets-block-item-text {
+  font-size: 14px;
+}
+.MuiDataGrid-root {
+  box-shadow: -20px -19px 20px 20px #c6afff1a;
+  border-radius: 16px;
+}
+
+/* Views css end */

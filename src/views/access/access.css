@@ -1,0 +1,18 @@
+.accordions-container {
+  background-color: #f8f8f8;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 7px;
+  width: 70%;
+}
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.accordion-style {
+  border-radius: 7px !important;
+  margin: 0.5rem auto;
+}

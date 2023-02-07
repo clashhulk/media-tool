@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+}
+.link {
+	text-decoration: none;
+	color: #fff;
+}
+
+p.errorms {
+	color: red;
+	font-size: 14px;
+	margin: 0;
+}
+
+.tss-1fbujeu-MUIDataTableHeadCell-toolButton {
+	font-weight: 600;
+}

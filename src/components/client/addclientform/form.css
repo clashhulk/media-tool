@@ -1,0 +1,123 @@
+/* PROGRESS BAR */
+.progressbar {
+  height: 7px;
+  border-radius: 40px;
+  background-color: #ffe9e9d6;
+  margin-bottom: 20px;
+}
+
+.progressbar div {
+  height: 100%;
+  border-radius: 40px;
+  background-color: rgb(121 255 111);
+  transition: 1.5s;
+}
+.stepForm {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 80%; */
+  align-items: flex-start;
+  justify-content: space-between;
+}
+form {
+  overflow: visible;
+}
+.formName {
+  text-align: center;
+}
+
+.buttonLoading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+.formStyle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow: visible;
+}
+.formItem {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+  overflow: visible;
+}
+.formTitles {
+  width: 100%;
+}
+.validation-message {
+  font-size: 0.8rem;
+  color: rgb(255, 67, 67);
+}
+.MuiFormControl-root {
+  overflow: visible;
+}
+/* .form-main-model {
+  width: 80%;
+} */
+.other-info-container {
+  background-color: #f3f3f3ba;
+  padding: 1rem;
+}
+/* 
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {margin: 5.5px auto!important;} */
+
+.upload-file-lable {
+  display: flex;
+  justify-content: space-between;
+}
+.css-1wc848c-MuiFormHelperText-root {
+  color: red;
+}
+.stepForm .css-1wc848c-MuiFormHelperText-root {
+  color: rgb(251 66 66);
+  position: absolute;
+}
+.prev {
+  width: 250px;
+  border-radius: 7px !important;
+}
+.custom-button-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.nex {
+  color: #fff;
+  width: 48%;
+}
+/* .MuiOutlinedInput-root {
+	height: 50px;
+} */
+/* .MuiInputLabel-root {
+	transform: translate(14px, 7px) scale(1);
+} */
+.byType {
+  width: 20%;
+  overflow: visible;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: rgb(80 160 240 / 46%) !important;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .formItem {
+    width: 100% !important;
+  }
+  .login-rightform {
+    width: 100%;
+  }
+  .flex-container {
+    flex-direction: column-reverse;
+  }
+  .login-leftImg {
+    width: 100%;
+  }
+}
